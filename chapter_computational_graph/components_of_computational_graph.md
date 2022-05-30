@@ -175,4 +175,7 @@ grad_W = matmul(transpose(X), grad_X1)
 :width:`600px`
 :label:`chain`
 
-在深度学习计算框架中，控制流可以进行嵌套，比如多重循环和循环条件控制，计算图会对复杂控制流进行准确的描述，以便于执行正确的计算调度与执行任务。可以通过[代码示例](https://github.com/openmlsys/openmlsys-pytorch/blob/master/chapter_computational_graph/control_flow.py)查看在条件控制和循环控制下，前向和反向计算的数据流。
+在深度学习计算框架中，控制流可以进行嵌套，比如多重循环和循环条件控制，计算图会对复杂控制流进行准确的描述，以便于执行正确的计算调度与执行任务。可以通过[代码示例](https://github.com/openmlsys/openmlsys-pytorch/blob/master/chapter_computational_graph/control_flow.py)[该代码示例已不可用，显示404notfound]
+![image](https://user-images.githubusercontent.com/84905965/170978599-ea951f31-22a0-46b8-bf84-83d9c2b08a30.png)
+
+查看在条件控制和循环控制下，前向和反向计算的数据流。
